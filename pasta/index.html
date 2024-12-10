@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style.js">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Restaurant</title>
+<header>
+    <h1><img src="/pasta/images/images4.jpeg" alt="Plat 1" style="width: 20%"></h1>
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Histoire</a></li>
+                <li><a href="#">Actualités</a></li>
+                <li><a href="#">Communauté</a></li>
+                <li><a href="#">Support</a></li>
+            </ul>
+        </nav>
+    </header>
+<section id="presentation">
+    <h2>Présentation</h2>
+    <p>Notre restaurant offre une cuisine raffinée avec des ingrédients frais et locaux.</p>
+        <img src="/pasta/images/images4.jpeg" alt="Plat 1" class="image-droite">
+        <p>Voici un autre texte qui va se placer autour de l'image à droite.</p>
+</section>
+
+<section id="menu">
+    <h2>Nos Specialités Italiennes</h2>
+    <div class="menu">
+        <div class="menu-item"><h3>piece</h3>
+            <nav>
+                <ul>
+                    <li>Élément 1</li>
+                    <li>Élément 2</li>
+                    <li>Élément 3</li>
+                    <li>Élément 4</li>
+                </ul>
+            </nav>
+       </div>
+         <div class="menu-item"><h3>pizza</h3>
+         <nav>
+            <ul>
+                <li>Élément 1</li>
+                <li>Élément 2</li>
+                <li>Élément 3</li>
+                <li>Élément 4</li>
+            </ul>
+        </nav>
+        </div>
+        <div class="menu-droite"><h3>document</h3>
+        <nav>
+            <ul>
+                <li>Élément 1</li>
+                <li>Élément 2</li>
+                <li>Élément 3</li>
+                <li>Élément 4</li>
+            </ul>
+        </nav>
+    </div>
+</section>
+
+<section class="content-desc">
+    <h2 class="mot">Photos</h2>
+    <ul class="gallery">
+      <li><img src="/pasta/images/images1.jpg" alt="paysage" /></li>
+      <li><img src="/pasta/images/images2.jpg" alt="paysage" /></li>
+      <li><img src="/pasta/images/images3.jpg" alt="paysage" /></li>
+    </ul>
+  </section>
+
+<section id="reservation">
+    <h2>Réservation</h2>
+    <form onsubmit="return handleSubmit(event)">
+        <div>
+            <label for="name">Nom :</label>
+            <input type="text" id="name" required>
+        </div>
+        <div>
+            <label for="mail">Mail :</label>
+            <input type="email" id="mail" required>
+        </div>
+        <div>
+            <label for="date">Date :</label>
+            <input type="date" id="date" required>
+        </div>
+        <div>
+            <label for="time">Heure :</label>
+            <input type="time" id="time" required>
+        </div>
+        <button type="submit">Réserver</button>
+    </form>
+</section>
+
+<footer>
+    <h1>me contacter</h1>
+    <div class="services">
+      <div class="service">
+        <h3>disponible de 12h a 15h</h3>
+        <h3>et de 16h a 20h</h3>
+        <p></p>
+      </div>
+
+      <div class="service">
+        <h3>mon mail : kevinsicre@gmail.com</h3>
+        <p></p>
+      </div>
+    </div>
+
+    <p id="contact">Contact : 06 67 12 13 85 | &copy; 2024,CV.</p>
+  </footer>
+</body>
+</html>
