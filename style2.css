@@ -114,7 +114,7 @@
        /* Style pour le mode sombre */
        .dark-mode {
          background-color: black;
-        color: rgb(8, 8, 8);
+        color: white;
        }
      /* Style pour le bouton Dark Mode */
       .darkmode {
