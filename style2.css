@@ -132,4 +132,6 @@
     .darkmode button:hover {
         background-color: #444;
     }
-
+    .body,.darkmode{
+        color: white;
+    }
