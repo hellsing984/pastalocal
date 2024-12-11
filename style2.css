@@ -110,22 +110,30 @@
         button:hover {
             background-color: #45a049; /* Couleur plus foncée au survol */
         }
-        .dark-mode {
-            background-color: black;
-            color: white;
-        }
-        .darkmode{
-            display: flex;
-            justify-content: end;
-            margin: 10px;
-        }
-        
-        .darkmode button {
-        
-            padding: 5px;
-            font-size: medium;
-            color: white;
-            background-color: #0e0505;
-            border: none;
-            border-radius: 4px;
-        }
+
+       /* Style pour le mode sombre */
+       .dark-mode {
+         background-color: black;
+        color: rgb(8, 8, 8);
+       }
+     /* Style pour le bouton Dark Mode */
+      .darkmode {
+         display: flex;
+        justify-content: end;
+       margin: 10px;
+      }
+    .darkmode button {
+        padding: 5px;
+        font-size: medium;
+        color: white;
+        background-color: #0e0505;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    /* Effet de survol du bouton */
+    .darkmode button:hover {
+        background-color: #444;
+    }
+
