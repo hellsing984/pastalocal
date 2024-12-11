@@ -34,6 +34,7 @@
         .menu, .gallery {
             display: flex;
             flex-wrap: wrap;
+            color: black;
         }
         .menu-item, .gallery-item {
             margin: 10px;
@@ -61,6 +62,7 @@
         #presentation {
             margin: 20px; /* Ajoute un espacement autour de la section */
             line-height: 1.6; /* Améliore la lisibilité du texte */
+            
         }
         .image-droite {
             float: right; /* Positionne l'image à droite */
@@ -69,8 +71,10 @@
             height: auto; /* Conserve les proportions de l'image */
             border-radius: 8px; /* Coins arrondis de l'image */
         }
+
         .texte-gauche {
             margin-right: 110px; /* Crée de l'espace à droite pour éviter de toucher l'image */
+            color: #0e0505;
         }
         .images{
            width: 50px; /* Vous pouvez ajuster la taille des images ici */
@@ -94,6 +98,7 @@
         }
         h2 {
             margin-bottom: 20px;
+            color: black;
         }
         div {
             margin-bottom: 15px;
@@ -112,7 +117,7 @@
         }
        .dark-mode {
          background-color: black;
-        color: white;
+        color: rgb(255, 255, 255);
        }
       .darkmode {
          display: flex;
@@ -132,6 +137,6 @@
     .darkmode button:hover {
         background-color: #444;
     }
-    .body,.darkmode{
+    body,.darkmode{
         color: white;
     }
