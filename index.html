@@ -2,11 +2,16 @@
 <html lang="fr">
 <head>
     <link rel="stylesheet" href="style2.css">
-    <link rel="stylesheet" href="style.js">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon Restaurant</title>
 <header>
+    <div class="darkmode">
+
+        <button onclick="toggleDarkMode()">Dark Mode</button>
+        <script src="./pastaVista.js"></script>
+    </div>
+     
     <h1><img src="./images/images4.jpeg" alt="Plat 1" style="width: 20%"></h1>
         <nav>
             <ul>
@@ -26,8 +31,6 @@
         <p class="texte-gauche">des pâtes fraîches et des desserts gourmands. Une expérience culinaire à l’italienne qui ravira vos papilles !</p>
         <p style="clear: both;">Texte après l'image qui ne doit pas entourer celle-ci.</p>
     </section>
-    
-
 <section id="menu">
     <h2>Nos Specialités Italiennes</h2>
     <div class="menu">
@@ -60,7 +63,6 @@
         </nav>
     </div>
 </section>
-
 <section class="content-desc">
     <h2 class="mot">Photos</h2>
     <ul class="gallery">
@@ -72,7 +74,6 @@
       <li><img src="images/images8.jpg" alt="paysage" /></li>
     </ul>
   </section>
-
 <section id="reservation">
     <h2>Réservation</h2>
     <form onsubmit="return handleSubmit(event)">
@@ -95,7 +96,6 @@
         <button type="submit">Réserver</button>
     </form>
 </section>
-
 <footer>
     <h1>me contacter</h1>
     <div class="services">
