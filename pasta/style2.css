@@ -58,15 +58,23 @@ body {
             flex-wrap: wrap;
             gap: 0.5rem;
         }
+        #presentation {
+            margin: 20px; /* Ajoute un espacement autour de la section */
+            line-height: 1.6; /* Améliore la lisibilité du texte */
+        }
         .image-droite {
-            flex-wrap: wrap-reverse; /* Cette propriété fait flotter l'image à droite */
-            margin: 10px; /* Ajoute un peu d'espace autour de l'image */
-            width: 80px; /* Vous pouvez ajuster la taille des images ici */
-            height: auto;
-            border-radius: 8px; /* Coins arrondis des images */
+            float: right; /* Positionne l'image à droite */
+            margin: 10px; /* Ajoute un espace autour de l'image */
+            width: 200px; /* Ajuste la taille de l'image */
+            height: auto; /* Conserve les proportions de l'image */
+            border-radius: 8px; /* Coins arrondis de l'image */
+        }
+        .texte-gauche {
+            margin-right: 110px; /* Crée de l'espace à droite pour éviter de toucher l'image */
         }
         .images{
            width: 50px; /* Vous pouvez ajuster la taille des images ici */
+           margin: 10px;
            height: auto;
            border-radius: 8px; /* Coins arrondis des images */
         }
@@ -78,22 +86,18 @@ body {
             height: 100vh; /* Utilise la hauteur de la fenêtre */
             background-color: #f0f8ff; /* Une couleur de fond douce */
         }
-    
         form {
             background-color: #ff4757; /* Fond blanc pour le formulaire */
             padding: 200px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-    
         h2 {
             margin-bottom: 20px;
         }
-    
         div {
             margin-bottom: 15px;
         }
-    
         button {
             background-color: #4CAF50; /* Couleur verte pour le bouton */
             color: white;
@@ -103,7 +107,6 @@ body {
             cursor: pointer;
             
         }
-    
         button:hover {
             background-color: #45a049; /* Couleur plus foncée au survol */
         }
