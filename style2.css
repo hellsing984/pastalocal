@@ -110,13 +110,10 @@
         button:hover {
             background-color: #45a049; /* Couleur plus foncée au survol */
         }
-
-       /* Style pour le mode sombre */
        .dark-mode {
          background-color: black;
         color: white;
        }
-     /* Style pour le bouton Dark Mode */
       .darkmode {
          display: flex;
         justify-content: end;
@@ -132,7 +129,6 @@
         cursor: pointer;
         transition: background-color 0.3s ease;
     }
-    /* Effet de survol du bouton */
     .darkmode button:hover {
         background-color: #444;
     }
